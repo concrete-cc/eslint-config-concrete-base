@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-concrete-base",
+  "version": "1.0.0",
+  "description": "Extending Airbnb's extensible shared config.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/concrete-cc/eslint-config-concrete-base.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "lazlojuly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/concrete-cc/eslint-config-concrete-base/issues"
+  },
+  "homepage": "https://github.com/concrete-cc/eslint-config-concrete-base#readme",
+  "devDependencies": {
+    "eslint": "^2.10.1",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.8.0"
+  }
+}
