@@ -8,5 +8,9 @@ module.exports = {
     "arrow-body-style": 0,
     "no-underscore-dangle": [2, { "allowAfterThis": true, "allow": ["_id"] }],
     "no-param-reassign": ["error", { "props": false }]
+  },
+  "env": {
+    "es6": true,
+    "jest": true
   }
 }
