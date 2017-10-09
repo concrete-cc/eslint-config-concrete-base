@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- node
+deploy:
+  provider: npm
+  email: infrastructure@concreteplatform.com
+  api_key:
+    secure: biky4cfOUa0WPQA1FzUq92KmhQrbfgLkvoDY/ws1a7++A8Ae6Nmcjisy9cQuofFofO9G8LBHv/5cFdHXqjdus6BxNH7ctdTzfjW4fevt5kiCQ0vCQRpPFq/IZzQZo06oolgYpTD326ffsUT3Jwd7bPXaWqJlkCQNiDf7a3OY8a06Nd3OqjujQHCrmiVU6jd0ycIFzGz6btSE1Xwgt8Xqnn7ZplqYzxQ1lqCjyVygKu3pCQzelpA9OG9Icjx9tgScnvSJaZlD5YLQ3loifHuLLr/69alYZNCNr65DGgF93RhgD/luLZeHLJ/dNeD8qjI5gJUCMcKYKi9s5w43dyNsJwNKC4lUlqdrvAUGgVNzFMaDGexskYm5yyeXlDqdUvQTCnf4u+8hNBfNonZ3ccqQr1X1r6V9QmLOHcEXvkb0oug0RN1HuCno9SvosSEFy+VUaECI+okRu3ajTF4WBaAxItNnGZonYEmYp0DIXQbXMXQze9dTkah9weqpEUc1Hglje1jEil87XGDs/A0KGLT1z6GXPp8NgzhiNrFkV9KpY8fTr5OaThNx1JP325T3G5SMu0FQwFyOqqlsb3eKP/HnCOszZ6f8/3JAAZdaCQdkANW8z+0fQgZ3/WUfH2zL6Lpia8BIqnX7/6am81kUsd8vTWLV3TmOJatOPvpJJzX2Vz0=
+  on:
+    tags: true
+    repo: concrete-cc/eslint-config-concrete

@@ -3,14 +3,10 @@ module.exports = {
   "rules": {
     "no-use-before-define": [2, {"functions": false, "classes": false}],
     "semi": [2, "never"],
+    "max-len": [2, 140, 2],
     "new-cap": [2, {"newIsCap": true, "capIsNew": false, "properties": false}],
     "padded-blocks": 0,
-    "arrow-body-style": 0,
-    "no-underscore-dangle": [2, { "allowAfterThis": true, "allow": ["_id"] }],
-    "no-param-reassign": ["error", { "props": false }]
-  },
-  "env": {
-    "es6": true,
-    "jest": true
+    "no-param-reassign": ["error", { "props": false }],
   }
 }
+

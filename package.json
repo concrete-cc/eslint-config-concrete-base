@@ -1,15 +1,12 @@
 {
-  "name": "eslint-config-concrete-base",
-  "version": "1.1.0",
+  "name": "eslint-config-concrete",
+  "version": "2.0.0",
   "description": "Extending Airbnb's extensible shared config.",
   "main": "index.js",
   "scripts": {
     "test": "echo '[ Info ] No testing required' && exit 0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/concrete-cc/eslint-config-concrete-base.git"
-  },
+  "repository": "https://github.com/concrete-cc/eslint-config-concrete-base.git",
   "keywords": [
     "eslint"
   ],
