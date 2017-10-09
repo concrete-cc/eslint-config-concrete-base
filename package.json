@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-concrete",
+  "name": "eslint-config-concrete-base",
   "version": "2.0.0",
   "description": "Extending Airbnb's extensible shared config.",
   "main": "index.js",
