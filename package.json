@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-concrete-base",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Extending Airbnb's extensible shared config.",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/concrete-cc/eslint-config-concrete-base#readme",
   "dependencies": {
-    "eslint": "^3.13.1",
-    "eslint-config-airbnb-base": "^11.0.1",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint": "^8.45.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.0"
   }
 }
