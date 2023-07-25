@@ -1,5 +1,4 @@
 # eslint-config-concrete-base
-[![Build Status](https://travis-ci.org/concrete-cc/eslint-config-concrete-base.svg?branch=master)](https://travis-ci.org/concrete-cc/eslint-config-concrete-base)
 
 Extending Airbnb's extensible shared config.
 
